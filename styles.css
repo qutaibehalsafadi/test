@@ -1,0 +1,111 @@
+
+        body {
+            background-color: white;
+            color: black;
+            width: auto;
+        }
+       
+        .toolbar {
+            display: flex;
+            width: 100%;
+            background-color: none;
+            color: rgb(36, 24, 24);
+            overflow:hidden;
+        align-self: center;
+        align-items: center;
+            margin-top: 5%;
+            margin-left:40%;
+        }
+        .toolbar a {
+              
+            display: block;
+            color: rgb(20, 2, 2);
+            text-align: center;
+            padding: 14px 10px;
+            text-decoration: none;
+            width: 15%;
+        }
+        .toolbar a:hover {
+            background-color: #f3eded;
+            color: rgba(139, 82, 82, 0.623);
+        }
+
+        .button1 {
+  transition-duration: 0.4s;
+  background-color:aqua;
+  width: 25%;
+  border: none;
+  font-size: medium;
+  color: white;
+  border-radius: 5px 5px 5px ;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: azure;
+}
+
+.button1:hover {
+  background-color: #373838; /* Green */
+  color: rgb(249, 249, 250);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border: 1px;
+  width: 30%;
+}
+.button2 {
+  transition-duration: 0.4s;
+  background-color:azure;
+  width: 150px;
+  font-size: medium;
+  border: none;
+  border-radius: 5px 5px 5px  ;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color:  aqua;
+}
+
+.button2:hover {
+  background-color: #131414; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border: 1px;
+  width: 175px;
+}
+.main{
+    
+    margin-left: 20%;
+    width: 80%;
+    margin-right: 5%;
+}
+.info{
+    margin-right: 10%;
+}
+.person image{
+    width: 40%;
+    
+    
+}
+.person_image img{
+    margin-left:0%;
+    border-radius: 0px 0px 0px 70px;
+    box-shadow:-10px 5px   rgb(93, 202, 202)  ;
+display: flex;
+
+}
+.font_blue{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.font_blue_dark{
+    color:rgb(90, 150, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+.font_blue_dark1{
+    color:rgb(90, 150, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.navfooter{
+    margin-top: 10%;
+    margin-left: 20%;
+    
+}
+    
